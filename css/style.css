@@ -452,10 +452,6 @@ hr {
 
 /* PROGRESS CARDS */
 
-.progress-cards {
-  margin-bottom: 115px;
-}
-
 .progress-list {
   margin-top: 238px;
   display: flex;
@@ -523,4 +519,188 @@ hr {
   opacity: 0.7;
   margin-top: 30px;
   margin-bottom: 0;
+}
+
+.commits-wrapper {
+  background-color: #fff9f5;
+  padding-top: 54px;
+  padding-bottom: 75px;
+}
+
+.commits-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+.commit-item {
+  max-width: 358px;
+  margin-top: 30px;
+}
+
+.commit-item:not(:nth-child(3n)) {
+  margin-right: 29px;
+}
+
+.commit-note {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ff5a05;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.commit-heading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 130%;
+  color: #05000b;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.commit-info {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #05000b;
+  opacity: 0.7;
+}
+
+.commit-card {
+  padding-left: 38px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 2px solid rgba(66, 82, 207, 0.1);
+  padding-top: 37px;
+}
+
+.commit-card.open-card {
+  background-color: #4252cf;
+  max-height: 265px;
+  padding-top: 34px;
+}
+
+.card-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  color: #05000b;
+  margin-top: 20px;
+}
+
+.card-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #05000b;
+  opacity: 0.7;
+  max-width: 251px;
+  margin-right: 69px;
+  margin-top: 9px;
+}
+
+.open-card .card-title,
+.open-card .card-text {
+  color: #fff;
+}
+
+.reviews {
+  padding-top: 106px;
+}
+
+.reviews-title {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 120%;
+  color: #05000b;
+  text-align: center;
+}
+
+.reviews-subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #05000b;
+  opacity: 0.7;
+  max-width: 494px;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 69px;
+}
+
+.reviews-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-text{
+  position: relative;
+}
+
+.review-heading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 160%;
+  color: #05000b;
+  margin: 0;
+  margin-bottom: 74px;
+}
+
+.reviewer {
+  padding: 31px 121px 31px 30px;
+  box-shadow: 13px 13px 31px rgba(0, 0, 0, 0.05);
+  width: 373px;
+}
+
+.reviewer-name {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 160%;
+  color: #05000b;
+  margin: 0;
+}
+
+.reviewer-info {
+  margin: 0;
+  font-size: 20px;
+  line-height: 160%;
+  color: #05000b;
+  opacity: 0.8;
+}
+
+.review {
+  background: #ffffff;
+  box-shadow: 13px 13px 31px rgba(0, 0, 0, 0.05);
+  width: 655px;
+  min-height: 272px;
+  position: absolute;
+  top: 164px;
+  z-index: -1;
+  display: flex;
+  
 }
